@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.velký-box{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+
+/* box */
+.box{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px; */
+    width: 100%;
+    height: auto;
+    position: absolute;
+    border: 3px solid black;
+}
+h3, H2{
+    margin-top: 15px; 
+}
+
+
+/* header */
+header{
+    position: relative;
+}
+h1{
+    font-size: 30px;
+}
+.znak-novinka{
+    text-transform: uppercase;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+/*  <!-- obrázek kola --> */
+.obrázek-kola{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.obrázek-kola img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* popis kola */
+.popis-kola{
+    text-align: justify;
+    font-size: 14px;
+}
+
+
+/* informace o kolu */
+.info-kolo{
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Tabulka velikostí */
+table{
+    border-collapse: collapse;
+    margin-top: 5px;
+    width: 100%;
+}
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 13px;
+    padding: 5px;
+   
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 11px;
+    padding: 5px;
+}
+
+
+/* barevné varianty kola */
+.varianty{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.modrá{
+display: inline-block;
+width: 35px;
+height: 35px;
+background-color: rgb(33, 95, 217);
+border-radius: 50%;
+margin-right: 15px;
+}
+.fialová{
+display: inline-block;
+width: 35px;
+height: 35px;
+background-color: rgb(133, 49, 153);
+border-radius: 50%;
+margin-right: 15px;
+}
+.šedá{
+    display: inline-block;
+    width: 35px;
+height: 35px;
+background-color: rgb(123, 123, 123);
+border-radius: 50%;
+margin-right: 15px;
+}
+
+
+/* produktové video */
+.video-wrapper{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin: 5px auto;
+}
+.video-wrapper iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* sekce cena */
+footer{
+    position: relative; 
+}
+
+footer p{
+    font-size: 12px;
+    /* margin-left: 5px; */
+    margin-top: 15px;
+    margin-bottom: 40px;
+    position: relative;
+}
+button{
+    position: absolute;
+    top:-8px;
+    right: 10px;
+    padding: 6px;
+    background-color: rgb(21, 128, 21);
+    color: aliceblue;
+    border-radius: 7px;
+    
+ }
+button:hover{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
